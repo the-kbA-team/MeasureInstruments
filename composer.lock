@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7d3981f9e30968ae448bc92f101e8f3",
+    "content-hash": "61f03fba718a11896697fc4e26f03f18",
     "packages": [
         {
             "name": "kba-team/serial-port",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-kbA-team/SerialPort.git",
@@ -1706,9 +1706,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kba-team/serial-port": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
