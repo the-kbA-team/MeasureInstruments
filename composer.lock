@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61f03fba718a11896697fc4e26f03f18",
+    "content-hash": "08eaf0d08a41a978bcab4bdc0e6838f4",
     "packages": [
+        {
+            "name": "kba-team/byte-debug",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/the-kbA-team/ByteDebug.git",
+                "reference": "2bf0e2a92c317f9ee4d59a89820baf71eb6cc787"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/the-kbA-team/ByteDebug/zipball/2bf0e2a92c317f9ee4d59a89820baf71eb6cc787",
+                "reference": "2bf0e2a92c317f9ee4d59a89820baf71eb6cc787",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "kbATeam\\ByteDebug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gregor",
+                    "email": "gregor-j@users.noreply.github.com"
+                }
+            ],
+            "description": "A simple class for debugging bytes by converting them to a printable string.",
+            "time": "2020-10-09T09:57:55+00:00"
+        },
         {
             "name": "kba-team/serial-port",
             "version": "v1.0.0",
